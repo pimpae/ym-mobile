@@ -1,0 +1,371 @@
+@font-face{
+  font-family: Kanit-Bold;
+  src: url(../fonts/Kanit-Bold.ttf);
+  font-style: normal;
+  font-variant:initial;
+} 
+@font-face{
+  font-family: Kanit-Light;
+  src: url(../fonts/Kanit-Light.ttf);
+  font-style: normal;
+  font-variant:initial;
+} 
+@font-face{
+  font-family: Kanit-Medium;
+  src: url(../fonts/Kanit-Medium.ttf);
+  font-style: normal;
+  font-variant:initial;
+} 
+@font-face{
+  font-family: Kanit-Regular;
+  src: url(../fonts/Kanit-Regular.ttf);
+  font-style: normal;
+  font-variant:initial;
+} 
+@font-face{
+  font-family: Linearicons-Free;
+  src: url(../fonts/Linearicons-Free.ttf);
+  font-style: normal;
+  font-variant:initial;
+} 
+
+
+/*html {
+  scroll-behavior: smooth;
+}*/
+.none-pad{
+  padding: 0px 0px 0px 0px !important;
+} 
+.none-pad-r{
+  padding: 0px 5px 0px 0px !important;
+} 
+.none-right{
+  margin-right: -15px;
+} 
+.none-left{
+  margin-left: -15px;
+} 
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+ 
+.navbar-toggler-left .fa-bars{
+  color: #fff !important;
+}
+@media only screen and (max-width: 991px) { /* MOBILE */
+  .mb-x{
+    display: none !important;
+  }
+  .none-xs{
+    padding: 0px 0px 0px 0px !important;
+  }   
+}
+@media only screen and (min-width: 992px) { /* PC */
+  .pc-x{
+    display: none !important;
+  }  
+}
+
+ 
+a:hover{
+  text-decoration: none;
+}
+/*.banner {
+  height: 100vh;
+}*/ 
+
+ 
+header{
+  background-color: #fff;
+  padding: 15px;
+  font-family: Kanit-Regular;
+}
+
+header .logo{
+  width: 120px;
+}
+
+
+header a{
+  color: #09a19b;  
+}
+header a:hover{
+  color: #348784;
+}
+header a.login{
+  font-family: Kanit-Regular;
+}
+header a.login:before{
+  content: "\e80f";
+  font-family: Linearicons-Free;
+  padding-right: 5px; 
+}
+.sec2{
+  background-color: #09a19b;
+  text-align: center;
+}
+.sec2 img{
+  width: 180px;
+}
+.sec2 h3{
+  font-family: Kanit-Bold;
+  color: #fff;
+}
+.sec2 h6{
+  font-family: Kanit-Light;
+  color: #fff;
+  line-height: 25px;
+}
+.sec3{
+  background-color: #f8f8f8; 
+}
+.sec3 h3{
+  font-family: Kanit-Bold;
+  color: #707070;
+  line-height: 40px;
+}
+.sec3 h5{
+  font-family: Kanit-Light;
+  color: #707070;
+  line-height: 25px;
+  line-height: 30px;
+}
+.sec3 {
+  background-color: #fff;
+}
+
+.box-p{
+  border-radius: 30px;  
+  text-align: center;
+  border: 1px solid #e4e3df;
+  margin-top: 60px;
+  -webkit-box-shadow: 10px 10px 20px -13px rgba(99,95,99,1);
+  -moz-box-shadow: 10px 10px 20px -13px rgba(99,95,99,1);
+  box-shadow: 10px 10px 20px -13px rgba(99,95,99,1); 
+  margin-bottom: 15px;
+}
+.box-p:hover{
+  -webkit-box-shadow: 10px 10px 20px -8px rgba(99,95,99,1);
+  -moz-box-shadow: 10px 10px 20px -8px rgba(99,95,99,1);
+  box-shadow: 10px 10px 20px -8px rgba(99,95,99,1);
+}
+.box-p img{
+  height: 55px;
+}
+
+.box-p h2{
+  color: #09a19b;
+  font-family: Kanit-Bold; 
+  z-index: 999;
+  text-transform: uppercase;
+}
+.box-p h3{
+  color: #3b3c3d;
+  font-family: Kanit-Bold;
+  text-transform: uppercase;
+}
+.box-p h6{
+  color: #abacad;
+  font-family: Kanit-Light;
+}
+
+.btn-x{
+  display: block;
+  width: 100%;
+  font-family: Kanit-Bold;
+  background-color: #08a19c;
+  border-radius:30px;
+  color: #fff;
+  padding: 8px; 
+  border: 1px solid #f37e21;
+}
+.btn-x span{ 
+  font-family: Kanit-Regular;
+}
+.box-p span.p{ 
+  background-image: linear-gradient(to bottom, #f86464, #fa6e6e, #fc7777, #fd8181, #fe8a8a); 
+  color: #fff; 
+  text-align:  center;
+  font-family: Kanit-Regular;
+  position: absolute;
+  right: 0;
+  top: 0; 
+  border-radius: 100%;
+  z-index: -1;
+}
+.btn-x:hover{
+  color: #fff;
+  background-color: #348784;
+}
+
+footer{
+  background-color: #4f4f4f;
+  min-height: 70px;
+}
+
+
+@media only screen and (max-width: 991px) { /* MOBILE */
+  .sec2 h3{
+    font-size: 18px;
+  }
+  .sec2 h6{
+    font-size: 14px;
+    padding: 0px 15px;
+  }
+  .sec2 img{
+  width: 120px;
+}
+  .lslide .col-12 .box-p{
+    height: 360px;
+    margin-top: 50px;
+  }
+  .lslide.active .col-12 .box-p{
+    height: 380px;
+    margin-top: 45px;
+  }
+  .box-p{ 
+    max-width: 390px; 
+    padding: 30px 15px;
+  }
+  #product .col-12{
+    padding: 10px !important;
+  }
+  .box-p h2{ 
+    font-size: 26px; 
+  }
+  .box-p h3{ 
+    font-size: 20px; 
+  }
+  .box-p h6{ 
+    font-size: 14px; 
+  }
+  .btn-x{ 
+    font-size: 22px; 
+  }
+  .btn-x span{
+    font-size: 12px; 
+  }
+  .box-p span.p{  
+    font-size: 10px; 
+    padding: 10px 8px; 
+    margin-top: 15px;
+    margin-right: 10px; 
+  }
+  .sec3 h3{
+    font-size: 22px;
+    text-align: center;
+  }
+  .sec3 h5{
+    font-size: 16px;
+    text-align: center;
+  }
+  header .col-12{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  header .logo{
+    width: 90px;
+  }
+  header a{ 
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 16px;
+  }
+  header a.login{ 
+    padding-left: 5px;
+    padding-right: 15px;
+    float: right;
+    margin-top: 14px;
+    font-size: 14px;
+  }
+  header a.login:before{ 
+    font-size: 16px;
+    border-left: 2px solid #a2a2a2;
+    padding-left: 30px;
+  }
+}
+@media only screen and (min-width: 992px) { /* PC */
+  .box-p{ 
+    max-width: 390px; 
+    padding: 50px 30px;
+  }
+  ul#product{
+    list-style: none;    
+  }
+  #product li{
+    width: 33%;
+    display: inline-block;
+  }
+  .box-p h2{ 
+    font-size: 40px; 
+  }
+  .btn-x{ 
+    font-size: 36px; 
+  }
+  .btn-x span{
+    font-size: 16px; 
+  }
+  .box-p span.p{  
+    font-size: 12px; 
+    padding: 15px 13px; 
+    margin-top: 20px;
+    margin-right: 20px; 
+  }
+  header a{ 
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 22px;
+  }
+  header a.login{ 
+    padding-left: 15px;
+    padding-right: 15px;
+    float: right;
+    margin-top: 17px;
+  }
+  header a.login:before{ 
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.carousel-fade .carousel-item {
+ opacity: 0;
+ transition-duration: .6s;
+ transition-property: opacity;
+}
+
+.carousel-fade  .carousel-item.active,
+.carousel-fade  .carousel-item-next.carousel-item-left,
+.carousel-fade  .carousel-item-prev.carousel-item-right {
+  opacity: 1;
+}
+
+.carousel-fade .active.carousel-item-left,
+.carousel-fade  .active.carousel-item-right {
+ opacity: 0;
+}
+
+.carousel-fade  .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active,
+.carousel-fade .active.carousel-item-left,
+.carousel-fade  .active.carousel-item-prev {
+ transform: translateX(0);
+ transform: translate3d(0, 0, 0);
+}
+/*
+09a19b
+
+348784
+*/
+
+
