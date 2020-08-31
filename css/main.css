@@ -153,7 +153,7 @@ header a.login:before{
   background-color: #fff;
   border-radius: 30px;  
   text-align: center;
-  border: 1px solid #e4e3df;
+  border: 2px solid #e4e3df;
   margin-top: 60px;
   -webkit-box-shadow: 10px 10px 20px -13px rgba(99,95,99,1);
   -moz-box-shadow: 10px 10px 20px -13px rgba(99,95,99,1);
@@ -753,11 +753,16 @@ body.home{
   }
   .lslide .col-12 .box-p{
     height: 360px;
-    margin-top: 50px;
+    transform:scale(0.7); 
+    margin-top: 50px; 
+    margin-right: 100px;  
+    transform-origin: 20% 40%;
+    width: 290px;
   }
   .lslide.active .col-12 .box-p{
     height: 380px;
     margin-top: 45px;
+    transform:scale(1);   
   }
   .box-p{ 
     max-width: 390px; 
