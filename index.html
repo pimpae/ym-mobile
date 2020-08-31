@@ -24,7 +24,7 @@
                         <img src="images/logo.png" class=" logo">
                     </a>
                     <div class="col incd">
-                        <a href="#" >แพ๊กเกจ</a>
+                        <a href="#" >แพ็กเกจ</a>
                         <a href="#" >วิธีการซื้อ</a>
                         <a href="login.html" class="login">เข้าสู่ระบบ</a>   
                     </div>                 
@@ -128,7 +128,7 @@
             <div class="clearfix">&nbsp;</div>
         </section>
         <section>
-            <img src="images/boxd.jpg" class="img-fluid d-block mx-auto mb-x">
+            <img src="images/boxd.png" class="img-fluid d-block mx-auto mb-x">
             <img src="images/boxdm.png" class="img-fluid d-block mx-auto pc-x">
         </section>
 
@@ -138,12 +138,12 @@
             <div class="col">
                 <div class="row justify-content-center">
                     <div class="col-1 p-0 pc-x"></div>
-                    <div class="col-lg-9 col-11 p-0">
+                    <div class="col-xl-9 col-lg-12 col-11 p-0">
                         <div class="row">
                             <ul id="product">
                                 <li>
                                     <div class="col-12 ">
-                                        <div class="col box-p">
+                                        <div class="col box-p shadow-lg">
                                             <h2>UNLIMITED</h2>
                                             <h3> <img src="images/4g-01.png"> ไม่จำกัด</h3>
                                             <h6>อินเตอร์เน็ตเร็วสูงสุด 100 Mbps</h6>
@@ -160,7 +160,7 @@
                                 </li>
                                 <li>
                                     <div class="col-12  ">
-                                        <div class="col box-p">
+                                        <div class="col box-p shadow-lg">
                                             <h2>xxl</h2>
                                             <h3> <img src="images/4g-01.png"> 40 gb</h3>
                                             <h6>อินเตอร์เน็ตเร็วสูงสุด 100 Mbps</h6>
@@ -177,7 +177,7 @@
                                 </li>
                                 <li>
                                     <div class="col-12  ">
-                                        <div class="col box-p">
+                                        <div class="col box-p shadow-lg">
                                             <h2>xl</h2>
                                             <h3> <img src="images/4g-01.png"> 30 gb</h3>
                                             <h6>อินเตอร์เน็ตเร็วสูงสุด 100 Mbps</h6>
@@ -194,7 +194,7 @@
                                 </li>
                                 <li>
                                     <div class="col-12  ">
-                                        <div class="col box-p">
+                                        <div class="col box-p shadow-lg">
                                             <h2>l</h2>
                                             <h3> <img src="images/4g-01.png"> 20 gb</h3>
                                             <h6>อินเตอร์เน็ตเร็วสูงสุด 100 Mbps</h6>
@@ -210,7 +210,7 @@
                                 </li>
                                 <li>
                                     <div class="col-12  ">
-                                        <div class="col box-p">
+                                        <div class="col box-p shadow-lg">
                                             <h2>m</h2>
                                             <h3> <img src="images/4g-01.png"> 10 gb</h3>
                                             <h6>อินเตอร์เน็ตเร็วสูงสุด 100 Mbps</h6>
@@ -227,7 +227,7 @@
                                 </li>
                                 <li>
                                     <div class="col-12  ">
-                                        <div class="col box-p">
+                                        <div class="col box-p shadow-lg">
                                             <h2>m</h2>
                                             <h3> <img src="images/4g-01.png"> 5 gb</h3>
                                             <h6>อินเตอร์เน็ตเร็วสูงสุด 100 Mbps</h6>
@@ -280,10 +280,10 @@
             if (width<992) {
                 $("#product").lightSlider({
                     item:1.3,
-                    loop:false,
+                    loop:true,
                     keyPress:true,
                 });  
-                $(".col-lg-9 .row").removeClass("row");
+                $(".col-lg-12 .row").removeClass("row");
             } 
  
         });

@@ -83,8 +83,10 @@ header{
 }
 
 header .logo{
-  width: 120px;
+  width: 160px;
   float: left;
+  margin-bottom: -15px;
+  margin-top: -15px;
 }
 .menu-right .logout{
   color: #ff000a;
@@ -109,9 +111,14 @@ header a.login{
   font-family: Kanit-Regular;
 }
 header a.login:before{
-  content: "\e80f";
-  font-family: Linearicons-Free;
-  padding-right: 5px; 
+  content: ""; 
+  background-repeat: no-repeat;  
+  width: 18px;
+  height: 21px;
+  background-size: 18px 21px;
+  position: absolute;
+  margin-left: -25px;
+  margin-top: 4px;
 }
 .sec2{
   background-color: #09a19b;
@@ -147,24 +154,17 @@ header a.login:before{
   background-color: #fff;
 }
 .sec4{
-  background-image: linear-gradient(to bottom, #ffffff, #fdfafd, #fff3f8, #ffeeee, #ffe9e1, #fbded5, #f8d2c9, #f4c7bf, #e5b2be, #c9a2c2, #a097c4, #698fbc);
+  background-image: url(../images/shutterstock_407008462.png);
+  background-position: center center;
 }
 .box-p{
   background-color: #fff;
   border-radius: 30px;  
   text-align: center;
   border: 2px solid #e4e3df;
-  margin-top: 60px;
-  -webkit-box-shadow: 10px 10px 20px -13px rgba(99,95,99,1);
-  -moz-box-shadow: 10px 10px 20px -13px rgba(99,95,99,1);
-  box-shadow: 10px 10px 20px -13px rgba(99,95,99,1); 
+  margin-top: 60px; 
   margin-bottom: 15px;
-}
-.box-p:hover{
-  -webkit-box-shadow: 10px 10px 20px -8px rgba(99,95,99,1);
-  -moz-box-shadow: 10px 10px 20px -8px rgba(99,95,99,1);
-  box-shadow: 10px 10px 20px -8px rgba(99,95,99,1);
-}
+} 
 .box-p img{
   height: 55px;
 }
@@ -230,11 +230,7 @@ body.login{
   font-family: Kanit-Regular;  
   text-align: center;
 }
-.f-login h1:before{
-  content: "\e80f";
-  font-family: Linearicons-Free;
-  padding-right: 5px; 
-}
+
 .f-login form label{
   color: #fff;
   font-family: Kanit-Regular;  
@@ -686,7 +682,7 @@ body.home{
 }
 .package .col.body{
   padding: 15px 15px 30px 30px;
-  border-bottom: 1px solid #dcdcdc;
+  /*border-bottom: 1px solid #dcdcdc;*/
 }
 .package .col.body h4{
   font-family: Kanit-Regular;
@@ -760,7 +756,8 @@ body.home{
     width: 290px;
   }
   .lslide.active .col-12 .box-p{
-    height: 380px;
+    width: 270px;
+    height: 350px;
     margin-top: 45px;
     transform:scale(1);   
   }
@@ -787,8 +784,8 @@ body.home{
     font-size: 12px; 
   }
   .box-p span.p{  
-    font-size: 10px; 
-    padding: 10px 8px; 
+    font-size: 8px; 
+    padding: 12px 10px; 
     margin-top: 15px;
     margin-right: 10px; 
   }
@@ -816,7 +813,7 @@ body.home{
     padding-left: 5px;
     padding-right: 15px;
     float: right; 
-    font-size: 14px;
+    font-size: 14px; 
   }
   header a.login:before{ 
     font-size: 16px;
@@ -870,7 +867,8 @@ body.home{
     margin-left: 5px;
   }
   .data1 p img{
-    width: 40px; 
+    width: 30px; 
+    margin-top: 5px;
   }
   .data2 p{
     width: 65px;
@@ -878,7 +876,8 @@ body.home{
     margin-left: 5px;
   }
   .data2 p img{
-    width: 40px; 
+    width: 30px; 
+    margin-top: 5px; 
   }
   .data3 p{
     width: 65px;
@@ -886,7 +885,8 @@ body.home{
     margin-left: 5px;
   }
   .data3 p img{
-    width: 40px; 
+    width: 30px; 
+    margin-top: 5px;
   }
   .data1 h4{ 
     padding-left: 60px;
@@ -1033,7 +1033,17 @@ body.home{
     color: #5e615e;
     padding-left: 25px;
   }
-
+  .f-login h1:before{
+    content: ""; 
+    background-repeat: no-repeat;  
+    width: 18px;
+    height: 21px;
+    background-size: 18px 21px;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 2px;
+    background-image: url(../images/lock-w.png); 
+  }
 }
 @media only screen and (min-width: 992px) { /* PC */
   .incd{
@@ -1109,7 +1119,8 @@ body.home{
     margin-left: 15px;
   }
   .data1 p img{
-    width: 60px; 
+    width: 35px; 
+    margin-top: 10px;
   }
   .data2 p{
     width: 80px;
@@ -1117,7 +1128,8 @@ body.home{
     margin-left: 15px;
   }
   .data2 p img{
-    width: 60px; 
+    width: 35px; 
+    margin-top: 10px;
   }
   .data3 p{
     width: 80px;
@@ -1125,7 +1137,8 @@ body.home{
     margin-left: 15px;
   }
   .data3 p img{
-    width: 60px; 
+    width: 45px; 
+    margin-top: 10px;
   }
   .data1 h4{ 
     padding-left: 90px;
@@ -1205,6 +1218,20 @@ body.home{
     padding-left: 25px;
   }
 
+  header a.login:before{ 
+    background-image: url(../images/lock.png); 
+  }
+  .f-login h1:before{
+    content: ""; 
+    background-repeat: no-repeat;  
+    width: 35px;
+    height: 42px;
+    background-size: 35px 42px;
+    position: absolute;
+    margin-left: -45px;
+    margin-top: 2px;
+    background-image: url(../images/lock-w.png); 
+  }
 }
  
 
@@ -1237,7 +1264,7 @@ body.home{
 }
 /*
 09a19b
-
+707070
 348784
 */
 
