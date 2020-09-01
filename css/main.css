@@ -469,6 +469,10 @@ body.home{
   margin-bottom: 15px;
   padding-left: 30px;
 }
+.box2 h1.g{ 
+  color: #09a19b;
+  border-bottom: 1px solid #afafaf; 
+}
 
 .data1{
   margin-top: 30px;
@@ -731,6 +735,44 @@ body.home{
   color: #09a19b;   
   font-family: Kanit-Regular;
 }
+
+.pay .pay1{
+  font-family: Kanit-Regular;
+  color: #09a19b; 
+}
+.pay .pay2{
+  font-family: Kanit-Bold;
+  color: #09a19b; 
+}
+
+.pay .pay1 h4{
+  padding-left: 20px;
+}
+
+.pay .pay1 h5{
+  color: #3B3C3D;
+}
+
+.payment .col-12 .py{  
+  padding: 10px;
+  color: #000000;
+  font-size: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+}
+.payment .col-12 .py div{
+  font-family: Kanit-Regular;  
+} 
+.payment .col-12 .py.active,.payment .col-12 .py:hover{
+  background-color: #09a19b; 
+  color: #ffffff;
+}
+.payment .col-12 .py input{
+  opacity: 0;
+}
+
 
 
 @media only screen and (max-width: 991px) { /* MOBILE */
@@ -1044,6 +1086,54 @@ body.home{
     margin-top: 2px;
     background-image: url(../images/lock-w.png); 
   }
+
+  .pay .pay2{
+    font-size: 53px; 
+    text-align: center;
+  }
+  .pay .pay1 p{
+    font-size: 44px;
+    text-align: right;
+    margin-top: -10px;
+  }
+  .pay .pay1 h5 img{
+    width: 20px;
+  }
+  .pay .pay1 h2{
+    font-size: 24px;
+  }
+  .pay .pay1 h4{
+    font-size: 18px;
+  }
+  .pay .pay1 h5{
+    font-size: 14px;
+  }
+  .pay .pay2{
+    font-size: 42px;
+    line-height: 100px;
+  } 
+
+  .payment .col-12 .py{  
+    border: 2px solid #DDDDDD;
+    width: 100%;
+    margin-bottom: 30px; 
+  }
+  .payment .row .col-12 .py img{ 
+    height: 50px;
+  }
+  .payment .col-12 .py div{ 
+    position: absolute;
+    top: 0;
+    left: 0; 
+    margin-top: 27px;
+    margin-left: 90px;
+  }
+  .payment .col-12 .py div p{ 
+    text-align: left; 
+  }
+  .payment .col-12 .py div{ 
+    font-size: 14px;  
+  } 
 }
 @media only screen and (min-width: 992px) { /* PC */
   .incd{
@@ -1232,6 +1322,54 @@ body.home{
     margin-top: 2px;
     background-image: url(../images/lock-w.png); 
   }
+
+  .pay .pay2{
+    font-size: 53px;
+    text-align: right;  
+    line-height: 180px;
+  }
+  .pay .pay1 p{
+    text-align: center;
+    font-size: 80px;;
+  }
+  .pay .pay1 h5 img{
+    width: 40px;
+  }
+
+  .payment .row .col-12:nth-child(1) .py img{
+    width: 95px;
+  }
+  .payment .row .col-12:nth-child(2) .py img{
+    width: 75px;
+  }
+  .payment .row .col-12:nth-child(3) .py img{
+    width: 87px;
+  }
+  .payment .row .col-12:nth-child(4) .py img{
+    width: 78px;
+  }
+  .payment .col-12 .py{ 
+    border: 2px solid #DDDDDD;  
+    width: 153px; 
+    height: 138px;
+    text-align: center;
+  }
+  .payment .col-12 .py div{ 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .payment .col-12 .py div p{
+    width: 100%;
+    display: block;
+    margin: auto;
+    text-align: center; 
+  }
+  .payment .col-12 .py div{ 
+    font-size: 13px;  
+  } 
 }
  
 
