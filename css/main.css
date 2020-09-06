@@ -178,7 +178,7 @@ header a.login:before{
   width: 180px;
 }
 .sec2 h3{
-  font-family: Mitr-Bold;
+  font-family: Mitr-Regular;
   color: #fff;
 }
 .sec2 h6{
@@ -266,7 +266,7 @@ header a.login:before{
 
 footer{
   background-color: #09A19B;
-  min-height: 70px;
+  min-height: 50px;
 }
 body.login{
   min-height: 100vh;
@@ -545,8 +545,7 @@ body.home{
   font-family: Mitr-Light;
   color: #6081c4;
   font-size: 20px; 
-  padding-top: 5px;
-  padding-left: 90px;
+  padding-top: 5px; 
 }
 .data1 h3{
   font-family: Mitr-Regular;
@@ -893,7 +892,7 @@ body.home{
   font-family: Mitr-Light;
 }
 .choose-number a h5{
-  font-size: 17px;
+  font-size: 14px;
   margin-top: 15px;
 }
 .choose-number img{
@@ -1037,17 +1036,26 @@ body.home{
   margin-bottom: 25px;
 }
 */
+.status div h4{ 
+  font-size: 20px;
+  margin-top: 10px;  
+}
 
 .status div.active{ 
-  font-size: 30px; 
+  font-size: 24px; 
   opacity: 1;  
 }
 
 .status div.active img{
-  height: 70px; 
+  margin-top: 10px;
+  height: 50px; 
 }
 
 .foxm-address{
+  background-color: #fff; 
+}
+
+.foxm-address2{
   background-color: #fff; 
 }
 
@@ -1065,6 +1073,27 @@ body.home{
   color: #949494;
   text-align: center;
   font-family: Mitr-Regular; 
+}
+.foxm-address h5{
+  color: #FF0000;
+  text-align: center;
+  font-family: Mitr-Medium; 
+}
+.foxm-address h4{
+  color: #949494;
+  text-align: center;
+  font-family: Mitr-Medium; 
+}
+.foxm-address h6{
+  color: #949494;
+  text-align: center;
+  font-family: Mitr-Light; 
+}
+.foxm-address h6 span{
+  color: #09A19B;
+  text-align: center;
+  font-family: SukhumvitSet-Medium;
+  padding-left: 30px;
 }
 .foxm-address2 h3{
   color: #949494; 
@@ -1097,7 +1126,12 @@ body.home{
   border: 1px solid #707070;
   height: 65px;
   color: #B3B0AE;
-  font-size: 14px;
+  font-size: 16px;
+}
+.foxm-address .form-control.password{
+  border-radius: 5px;
+  text-align: center;
+  font-size: 22px;
 }
 .btn-sex{
   width: 100%;
@@ -1161,7 +1195,7 @@ body.home{
 
 .btn-b{
   font-family: SukhumvitSet-Bold;
-  border-radius: 15px;
+  border-radius: 10px;
   border: 2px solid #09A19B;
   background-color: #fff; 
   text-align: center;
@@ -1172,7 +1206,7 @@ body.home{
 }
 .btn-n{
   font-family: SukhumvitSet-Bold;
-  border-radius: 15px;
+  border-radius: 10px;
   border: 2px solid #09A19B;
   background-color: #09A19B; 
   text-align: center;
@@ -1639,11 +1673,11 @@ label.btn-upload:hover{
     margin-top: 25px;
   }
   .btn-b{ 
-    font-size: 22px;  
+    font-size: 18px;  
     padding: 10px; 
   }
   .btn-n{ 
-    font-size: 22px;
+    font-size: 18px;
     padding: 10px; 
   }
   .status div h4{ 
@@ -1664,11 +1698,26 @@ label.btn-upload:hover{
   .foxm-address{ 
     margin-top: -50px;
   }
+  .foxm-address2{ 
+    margin-top: -50px;
+  }
   .foxm-address h1{ 
     font-size: 36px;
   }
   .foxm-address h3{ 
     font-size: 20px;
+  }
+  .foxm-address h5{ 
+    font-size: 15px;
+  }
+  .foxm-address h4{ 
+    font-size: 17px;
+  }
+  .foxm-address h6{ 
+    font-size: 14px;
+  }
+  .foxm-address h6 span{ 
+    font-size: 22px;
   }
   .foxm-address2 h3{ 
     font-size: 20px;
@@ -1717,16 +1766,16 @@ label.btn-upload:hover{
     font-size: 33px; 
   }
   .btn-x{ 
-    font-size: 36px; 
+    font-size: 30px; 
   }
   .btn-x span{
     font-size: 16px; 
   }
   .box-p span.p{  
-    font-size: 10px; 
-    padding: 15px 13px; 
-    margin-top: 20px;
-    margin-right: 20px; 
+    font-size: 9px; 
+    padding: 12px 6px; 
+    margin-top: 10px;
+    margin-right: 10px; 
   }
   header a{ 
     padding-left: 15px;
@@ -1766,42 +1815,8 @@ label.btn-upload:hover{
   .box2{  
     padding: 30px; 
   }
-  .data1 p{
-    width: 80px;
-    height: 80px; 
-    margin-left: 15px;
-  }
-  .data1 p img{
-    width: 35px; 
-    margin-top: 10px;
-  }
-  .data2 p{
-    width: 80px;
-    height: 80px;  
-    margin-left: 15px;
-  }
-  .data2 p img{
-    width: 35px; 
-    margin-top: 10px;
-  }
-  .data3 p{
-    width: 80px;
-    height: 80px;  
-    margin-left: 15px;
-  }
-  .data3 p img{
-    width: 45px; 
-    margin-top: 10px;
-  }
-  .data1 h4{ 
-    padding-left: 90px;
-  }
-  .data2 h4{ 
-    padding-left: 90px;
-  }
-  .data3 h4{ 
-    padding-left: 90px;
-  }
+  
+  
 
   .btn-package{  
     font-size: 30px;
@@ -1947,15 +1962,15 @@ label.btn-upload:hover{
     font-size: 37px;
   }
   .pay-list h2 span{ 
-    font-size: 50px;
+    font-size: 40px;
   }
   .sel-num>.row .nx{ 
-    font-size: 29px; 
+    font-size: 22px; 
     height: 65px;
-    padding-top: 15px;
+    padding-top: 18px;
   }
   .h1c{ 
-    font-size: 61px;
+    font-size: 50px;
   }
   .numberx h2{ 
     font-size: 24px;
@@ -1972,12 +1987,12 @@ label.btn-upload:hover{
     font-size:30px;
   }
   .btn-b{ 
-    font-size: 30px;  
-    padding: 10px; 
+    font-size: 22px;  
+    padding: 8px; 
   }
   .btn-n{ 
-    font-size: 30px;
-    padding: 10px; 
+    font-size: 22px;
+    padding: 8px; 
   }
   .status div{ 
     font-size: 30px; 
@@ -1997,6 +2012,9 @@ label.btn-upload:hover{
   .foxm-address{ 
     margin-top: -100px;
   }
+  .foxm-address2{ 
+    margin-top: -100px;
+  }
   .foxm-address h1{
     margin-top: 15px;
     font-size: 50px;
@@ -2004,12 +2022,25 @@ label.btn-upload:hover{
   .foxm-address h3{ 
     font-size: 36px;
   }
+  .foxm-address h5{ 
+    font-size: 22px;
+  }
+  .foxm-address h4{ 
+    font-size: 26px;
+  }
+  .foxm-address h6{ 
+    font-size: 22px;
+  }
+  .foxm-address h6 span{ 
+    font-size: 30px;
+  }
   .foxm-address2 h3{ 
     font-size: 36px;
   }
   .foxm-address2 h1{
     margin-top: 15px;
-    font-size: 50px;
+    font-size: 40px;
+    line-height: 55px;
   }
   .foxm-address2 h5{
     font-size: 18px;
@@ -2078,6 +2109,53 @@ label.btn-upload:hover{
     width: 80%;
     height: 180px; 
   }
+  .data1 p{
+    width: 60px;
+    height: 60px; 
+    margin-left: 10px;
+  }
+  .data1 p img{
+    width: 25px; 
+    margin-top: 5px;
+  }
+  .data2 p{
+    width: 60px;
+    height: 60px;  
+    margin-left: 10px;
+  }
+  .data2 p img{
+    width: 25px; 
+    margin-top: 7px;
+  }
+  .data3 p{
+    width: 60px;
+    height: 60px;  
+    margin-left: 10px;
+  }
+  .data3 p img{
+    width: 35px; 
+    margin-top: 4px;
+  }
+  .data1 h4{ 
+    padding-left: 65px;
+    font-size: 16px;
+  }
+  .data1 h3{  
+    font-size: 18px;
+  }
+  .data1 h4 span {
+    font-size: 12px;
+  }
+  .data2 h4{ 
+    padding-left: 65px;
+  }
+  .data3 h4{ 
+    padding-left: 65px;
+  }
+  .data1 h5{ 
+    padding-left: 65px;
+    font-size: 16px;
+  }
 }
 @media only screen and (min-width: 1400px) {
   .preview {
@@ -2100,7 +2178,7 @@ label.btn-upload:hover{
   }
 }
 
-@media only screen and (min-width: 2000px) {
+@media only screen and (min-width: 1900px) {
   .preview {
     width: 80%;
     height: 300px; 
@@ -2108,6 +2186,52 @@ label.btn-upload:hover{
   .preview2 {
     width: 80%;
     height: 300px; 
+  }
+  .data1 p{
+    width: 80px;
+    height: 80px; 
+    margin-left: 15px;
+  }
+  .data1 p img{
+    width: 35px; 
+    margin-top: 10px;
+  }
+  .data2 p{
+    width: 80px;
+    height: 80px;  
+    margin-left: 15px;
+  }
+  .data2 p img{
+    width: 35px; 
+    margin-top: 10px;
+  }
+  .data3 p{
+    width: 80px;
+    height: 80px;  
+    margin-left: 15px;
+  }
+  .data3 p img{
+    width: 45px; 
+    margin-top: 10px;
+  }
+  .data1 h4{ 
+    padding-left: 90px;
+  }
+  .data2 h4{ 
+    padding-left: 90px;
+  }
+  .data3 h4{ 
+    padding-left: 90px;
+  }
+  .data1 h5{ 
+    padding-left: 90px;
+
+  }
+  .data1 h3{  
+    font-size: 24px !important;
+  }
+  .data1 h4 span {
+    font-size: 20px !important;
   }
 }
  
@@ -2119,6 +2243,45 @@ label.btn-upload:hover{
   .preview2 {
     width: 80%;
     height: 350px; 
+  }
+  .data1 p{
+    width: 80px;
+    height: 80px; 
+    margin-left: 15px;
+  }
+  .data1 p img{
+    width: 35px; 
+    margin-top: 10px;
+  }
+  .data2 p{
+    width: 80px;
+    height: 80px;  
+    margin-left: 15px;
+  }
+  .data2 p img{
+    width: 35px; 
+    margin-top: 10px;
+  }
+  .data3 p{
+    width: 80px;
+    height: 80px;  
+    margin-left: 15px;
+  }
+  .data3 p img{
+    width: 45px; 
+    margin-top: 10px;
+  }
+  .data1 h4{ 
+    padding-left: 90px;
+  }
+  .data2 h4{ 
+    padding-left: 90px;
+  }
+  .data3 h4{ 
+    padding-left: 90px;
+  }
+  .data1 h5{ 
+    padding-left: 90px;
   }
 }
 @media only screen and (width: 768px) {
