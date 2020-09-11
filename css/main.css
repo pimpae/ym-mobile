@@ -1352,6 +1352,132 @@ p.visa{
   opacity: 0;
 }
 
+.summary .row1 div:nth-child(1){
+  padding-top: 45px;
+  padding-bottom: 30px;
+  padding-left: 80px;
+}
+.summary .row1 div:nth-child(1){
+  color: #ABACAD;
+  font-family: SukhumvitSet-Medium;
+  text-align: left; 
+}
+
+.summary .row1{
+  border-bottom:1px solid #DCDCDC;
+}
+.summary .row1 div:nth-child(2){
+  font-family: Mitr-Regular;
+  color: #ABACAD;
+  text-align: right;
+}
+.summary .row1 div:nth-child(2) p{ 
+  font-size: 16px;
+}
+
+.summary .row1 div:nth-child(2) h4{ 
+  font-size: 20px;
+}
+
+.summary .row1 div:nth-child(3){
+  font-family: Mitr-Regular;
+  color: #ABACAD;  
+}
+
+
+
+.summary .row2 div:nth-child(1){
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 80px;
+  color: #ABACAD;
+  font-family: SukhumvitSet-Medium;
+}
+.summary .row2 div:nth-child(1){ 
+  font-size: 24px;
+} 
+.summary .row2{
+  border-bottom:1px solid #DCDCDC;
+}
+.summary .row2 div:nth-child(2){ 
+  text-align: right;
+  color: #09a19b; 
+}
+
+ 
+
+.summary .row3{
+  border-bottom:1px solid #DCDCDC;
+}
+.summary .row3 div:nth-child(2){
+  font-family: SukhumvitSet-Medium;
+  color: #08A19C; 
+}
+
+
+.summary .row4 div:nth-child(1){
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 80px;
+}
+.summary .row4 div:nth-child(1){
+  color: #ABACAD;
+  font-family: SukhumvitSet-Medium;
+  text-align: left;
+  font-size: 24px;
+}
+.summary .row4 div:nth-child(1) img{
+  height: 40px;
+  margin-right: 15px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.summary .row4{
+  border-bottom:1px solid #DCDCDC;
+}
+.summary .row4 div:nth-child(2){
+  font-family: SukhumvitSet-Medium;
+  color: #3B3C3D;
+  text-align: right;
+  padding: 30px;
+  font-size: 30px;
+}
+
+
+.summary .row5 div:nth-child(1){
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 80px;
+}
+.summary .row5 div:nth-child(1){
+  color: #ABACAD;
+  font-family: SukhumvitSet-Medium;
+  text-align: left;
+  font-size: 24px;
+}
+.summary .row5 div:nth-child(1) img{
+  height: 40px;
+  margin-right: 15px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.summary .row5{
+  border-bottom:1px solid #DCDCDC;
+}
+.summary .row5 div:nth-child(2){
+  font-family: SukhumvitSet-Medium;
+  color: #3B3C3D;
+  text-align: right;
+  padding: 30px;
+  font-size: 30px;
+}
+
 
 @media only screen and (max-width: 991px) { /* MOBILE */
   .incd{
@@ -1878,6 +2004,146 @@ p.visa{
     color: #09a19b;
     font-size: 28px;
   }
+  .summary .row1 div:nth-child(1) img{
+    height: 30px;
+    margin-right: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  .summary .row1 div:nth-child(3) p{ 
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .summary .row1 div:nth-child(3) h4{ 
+    font-size: 18px;
+    text-align: center;
+  }
+  .summary .row1 div:nth-child(1){
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 45px;
+  }
+  .summary .row1 div:nth-child(1){ 
+    font-size: 20px;
+  }
+  .summary .row2 div:nth-child(1){
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 45px;
+  }
+  .summary .row2 div:nth-child(1){  
+    font-size: 20px;
+  }
+  .summary .row2 div:nth-child(1) img{
+    height: 30px;
+    margin-right: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 15px;
+    margin-left: 15px;
+  } 
+  .summary .row2 div:nth-child(2){ 
+    text-align: center;
+    padding: 15px;
+    padding-top: 0px;
+    font-size: 30px;
+  }
+
+  .summary .row3 div:nth-child(1){
+    color: #ABACAD;
+    font-family: SukhumvitSet-Medium; 
+  } 
+  .summary .row3 div:nth-child(1){
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    padding-left: 45px;
+  } 
+  .summary .row3 div:nth-child(1) img.r3{
+    height: 30px;
+    margin-right: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 15px;
+    margin-left: 15px;
+  } 
+  .summary .row3 div:nth-child(2){  
+    padding: 15px;
+    padding-top: 0px;
+    font-size: 50px;
+  }
+  .inb .d1 span{ 
+    font-family: SukhumvitSet-Medium;
+    color: #08A19C;  
+    font-size: 50px;  
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 30px;
+    margin-top: -5px;
+  }
+  .inb .d2 {
+    font-size: 11px !important;
+    text-align: left;
+    float: left;
+    color: #ABACAD !important;
+    margin-left: -25px;
+  }
+  .inb .d2 img{
+    position: relative; 
+    height: 25px;
+  }
+  .summary .row6{
+    border-bottom:1px solid #DCDCDC;
+  }
+  .summary .row6 div:nth-child(1){
+    padding-top: 30px;
+    padding-bottom: 15px; 
+  }
+  .summary .row6 div:nth-child(1){
+    color: #ABACAD;
+    font-family: SukhumvitSet-Medium;
+    text-align: center;
+    font-size: 24px;
+  }  
+  .summary .row6 div:nth-child(2){
+    font-family: SukhumvitSet-Medium;   
+    padding-bottom: 15px; 
+  }
+
+  .summary .row6 div:nth-child(2) h3{ 
+    font-size: 36px;  
+    text-align: center;
+    margin-bottom: 0px;
+    color: #09A19B;
+  }
+
+  .summary .row6 div:nth-child(2) h6{ 
+    font-size: 16px;
+    text-align: center;
+    color: #09A19B;
+  }
+
+  .summary .row7 div:nth-child(1){
+    padding-top: 15px; 
+    color: #ABACAD;
+    font-family: SukhumvitSet-Medium;
+    text-align: center;
+    font-size: 24px;
+  }  
+  .summary .row7 div:nth-child(2){
+    font-family: SukhumvitSet-Medium;  
+    
+    font-size: 48px; 
+    color: #E8000B;
+    text-align: center;
+  }
 }
 @media only screen and (min-width: 992px) { /* PC */
   .incd{
@@ -2248,6 +2514,129 @@ p.visa{
     font-family: Mitr-Regular;
     color: #09a19b;
     font-size: 38px;
+  }
+      height: 40px;
+    margin-right: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 45px;
+    margin-left: 15px;
+  }
+  .summary .row1 div:nth-child(3) p{ 
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .summary .row1 div:nth-child(3) h4{ 
+    font-size: 20px;
+    text-align: left;
+  }
+  .summary .row1 div:nth-child(1){
+    padding-top: 45px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+  }
+  .summary .row1 div:nth-child(1){ 
+    font-size: 24px;
+  }
+
+  .summary .row2 div:nth-child(1){
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+  }
+  .summary .row2 div:nth-child(1){  
+    font-size: 24px;
+  }
+  .summary .row2 div:nth-child(1) img{
+    height: 40px;
+    margin-right: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 30px;
+    margin-left: 15px;
+  } 
+  .summary .row2 div:nth-child(2){ 
+    text-align: right;
+    padding: 30px;
+    font-size: 40px;
+  }
+  .summary .row3 div:nth-child(1){
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+  }
+  .summary .row3 div:nth-child(1){ 
+    text-align: left;
+    font-size: 24px;
+  }
+  .summary .row3 div:nth-child(1) img.r3{
+    height: 40px;
+    margin-right: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 30px;
+    margin-left: 15px;
+  } 
+  .summary .row3 div:nth-child(2){ 
+    text-align: right;
+    padding: 15px;
+    font-size: 40px;
+  }
+  .summary .row3 div:nth-child(1){
+    color: #ABACAD;
+    font-family: SukhumvitSet-Medium; 
+  } 
+  .summary .row6 div:nth-child(1){
+    padding-top: 30px;
+    padding-bottom: 15px; 
+  }
+  .summary .row6 div:nth-child(1){
+    color: #ABACAD;
+    font-family: SukhumvitSet-Medium;
+    text-align: left;
+    font-size: 36px;
+  }  
+  .summary .row6 div:nth-child(2){
+    font-family: SukhumvitSet-Medium;  
+    padding: 30px; 
+    padding-bottom: 15px;
+    font-size: 30px; 
+  }
+
+  .summary .row6 div:nth-child(2) h3{ 
+    font-size: 36px;  
+    text-align: right;
+    margin-bottom: 0px;
+    color: #09A19B;
+  }
+
+  .summary .row6 div:nth-child(2) h6{ 
+    font-size: 22px;
+    text-align: right;
+    color: #09A19B;
+  }
+
+  .summary .row7 div:nth-child(1){
+    padding-top: 0px;
+    padding-bottom: 30px; 
+  }
+  .summary .row7 div:nth-child(1){
+    color: #ABACAD;
+    font-family: SukhumvitSet-Medium;
+    text-align: left;
+    font-size: 36px;
+  }  
+  .summary .row7 div:nth-child(2){
+    font-family: SukhumvitSet-Medium;  
+    padding: 30px; 
+    padding-top: 0px;
+    font-size: 30px; 
+    color: #E8000B;
+    text-align: right;
   }
 } 
 
