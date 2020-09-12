@@ -1137,15 +1137,13 @@ body.home{
   font-size: 18px;
 }
 .btn-sex{
-  width: 100%;
-  height: 55px;
+  width: 100%; 
   text-align: center;
   font-family: Mitr-Regular;
   color: #B3B0AE;
   border-radius: 5px;
   border: 1px solid #707070;
-  display: block;
-  padding: 15px;
+  display: block; 
 }
 .btn-sex.active{
   background-color: #707070;
@@ -1167,8 +1165,7 @@ body.home{
   border-radius: 5px;
   border: 1px solid #707070;
   height: 55px;
-  color: #B3B0AE;
-  font-size: 18px;
+  color: #B3B0AE; 
 }
 
 .foxm-address .form-control::placeholder {
@@ -1906,6 +1903,11 @@ p.visa{
   .foxm-address2{ 
     margin-top: -50px;
   }
+  .foxm-address2  select.form-control{
+    padding-left: 5px !important;
+    padding-right: 0px !important;
+    font-size: 12px !important;
+  }
   .foxm-pay{ 
     margin-top: -50px;
   }
@@ -2151,6 +2153,14 @@ p.visa{
   .summary .row3 div:nth-child(2) { 
     color: #3B3C3D !important;
   }
+  .btn-sex{ 
+    height: 50px !important; 
+    padding: 13px !important;
+  } 
+  .foxm-address2 .form-control{ 
+    height: 50px !important; 
+  }
+
 }
 @media only screen and (min-width: 992px) { /* PC */
   .incd{
@@ -2655,7 +2665,16 @@ p.visa{
     color: #E8000B;
     text-align: right;
   }
+  .btn-sex{ 
+    height: 55px; 
+    padding: 15px;
+  } 
+  .foxm-address2 .form-control{ 
+    height: 55px; 
+  }
+
 }
+
 
 
 
