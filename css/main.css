@@ -1138,14 +1138,14 @@ body.home{
 }
 .btn-sex{
   width: 100%;
-  height: 65px;
+  height: 55px;
   text-align: center;
   font-family: Mitr-Regular;
   color: #B3B0AE;
   border-radius: 5px;
   border: 1px solid #707070;
   display: block;
-  padding: 20px;
+  padding: 15px;
 }
 .btn-sex.active{
   background-color: #707070;
@@ -1166,7 +1166,7 @@ body.home{
   font-family: Mitr-Regular;
   border-radius: 5px;
   border: 1px solid #707070;
-  height: 65px;
+  height: 55px;
   color: #B3B0AE;
   font-size: 18px;
 }
